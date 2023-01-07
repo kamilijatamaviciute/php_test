@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Electricity InputPage</title>
+</head>
+
+<body>
+    <form method="post" action="OutputPage.php">
+        <label for="kWhInput"> Įrašykite sunaudotus kilovatus (kWh): </label>
+        <input type="number" name="kWhInput" placeholder="Sunaudoti kWh"><br>
+        <label for="costKWh"> Įrašykite vienos kilovatvalandės kainą (kWh): </label>
+        <input type="number" name="costKWh" placeholder="kWh kaina" step="any"><br>
+        <label for="tariff"> Pasirinkite tarifą: </label>
+        <select name="tariff">
+            <option value="Dieninis"> Dieninis </option>
+            <option value="Naktinis"> Naktinis </option>
+        </select>
+        <br>
+        <h3>trukksta menesi pasirinkt</h3>
+        <br>
+        <button type="submit"> Pateikti </button>
+    </form>
+</body>
+</html>
