@@ -1,0 +1,17 @@
+{
+    "name": "oop/exam",
+    "description": "Kamilija Tamaviciute Atsiskaitymas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Oop\\Exam\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kamilijatamaviciute",
+            "email": "108301782+kamilijatamaviciute@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
